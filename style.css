@@ -81,7 +81,7 @@ footer{
   padding: 15px;
 }
 
-div, p{
+div{
   display: block;
   width: 600px;
   margin-left: auto;
