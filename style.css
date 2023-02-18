@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* styles the img to curve the border */
+.curve {
+    border-radius: 20%; 
+}
+
+/* styles the image because the default size was too large for the web page */
+img {
+  max-width: 300px;
+  padding: 10px;
+}
+
+/* default link color*/
+a:link {
+  color: #3b5e3b;
+} 
+
+/* color of the link once its been clicked on already */
+a:visited {
+  color: #7070b2;
+}
+
+/* color of the link when the user's cursor is on/hovering */
+a:hover {
+  color: #572886;
+}
+
+/* color of the link once the link is active */
+a:active {
+  color: #a75252;
+}
+
+h1 {
+  font-family:'Architects Daughter', cursive;
+  font-size: 40px;
+}
+
+/* class created */
+.header {
+  background-color: #383838;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  color:white;
+}
+
+/* changing the style of the horizontal rules*/
+hr {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #000;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+/* style rules for <main> */
+main{
+  background-color: #dcdbdb;
+  margin: 0 px;
+  padding: 10 px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* styles the footer which lies at the bottom of the web page */
+footer{
+  text-align: center;
+  background-color: #383838;
+  color: white;
+  font-family: 'comic sans ms';
+  margin: 0px;
+  padding: 15px;
+}
+
+div {
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
