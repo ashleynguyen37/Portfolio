@@ -9,6 +9,16 @@ html {
     border-radius: 20%; 
 }
 
+/*class created due to multiple content using the same CSS rules */
+.centered-content {
+  max-width: 600px; 
+  text-align: center; 
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 /* styles the image because the default size was too large for the web page */
 img {
   max-width: 300px;
