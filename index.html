@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-- declares html element language to english -->
-<html lang ="en">
+<!--declares html element language to english -->
+<html lang= "en">
 
 <head>
   <meta charset="utf-8">
@@ -29,17 +29,20 @@
   </header>
   
   <main>
+    <!-- article containers are useful for grouping related content within a web page -->
+    <article>
     <!-- add image, src= source image, alt: alternative text that describes the image for accessibility as well as if the image link is broken -->
-    <img src="me.jpg" alt="Photo of Ashley Nguyen" class="curve">
-    <h2>
-      Hi, my name is Ashley Nguyen!
-    </h2>
-    <!-- styles this specific paragraph to display in the center of the page -->
-    <p style= "max-width: 600px; 
-        text-align: center; 
-        display:block;
+    <!-- class and style added to style the img to be more presentable according to the rest of the content on the web page -->
+    <img src="me.jpg" alt="Photo of Ashley Nguyen" class="curve" style= "display:block;
         margin-left:auto;
         margin-right:auto;">
+      <header>
+    <h2 class="centered-content">
+      Hi, my name is Ashley Nguyen!
+    </h2>
+      </header>
+    <!-- styles this specific paragraph to display in the center of the page -->
+    <p class="centered-content">
       I am a student at Thinkful learning software developing and I live in Houston, Texas.
     </p>
 
@@ -47,7 +50,6 @@
 
 <!-- a semantic container, more beneficial to use to allow additional description about the content contained -->
     <!-- article containers are useful for grouping related content within a web page -->
-   <article>
     <section>
       <!-- link to about me link -->
       <header id="aboutme">
